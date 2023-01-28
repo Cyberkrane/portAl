@@ -1,0 +1,24 @@
+.fotoPerfil {
+    width: 20%;
+    border: 2px solid rgba(218, 165, 32, 0.511);
+    border-radius: 50%;
+    box-shadow: rgba(52, 106, 207, 0.772) 2px 2px 15px;
+
+}
+h4,
+p{
+    font-weight: 100;
+}
+.tarjeta {
+    position: relative;
+    width: 18em;
+    color: rgb(12, 49, 40);
+    padding: 7px;
+    border: rgba(0, 0, 0, 0.87) 1px solid;
+    border-radius: 5px;
+}
+
+.tarjeta img {
+    width: 60%;
+    margin: 10px auto;
+}

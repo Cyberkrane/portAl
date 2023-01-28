@@ -11,6 +11,7 @@ import { CardComponent } from './pages/card/card.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { SuggestionsComponent } from './pages/suggestions/suggestions.component';
 import { NaveComponent } from './pages/nave/nave.component';
+import { MegaheaderComponent } from './pages/megaheader/megaheader.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NaveComponent } from './pages/nave/nave.component';
     CardComponent,
     PerfilComponent,
     SuggestionsComponent,
-    NaveComponent
+    NaveComponent,
+    MegaheaderComponent
   ],
   imports: [
     BrowserModule,
