@@ -8,3 +8,20 @@ body{
     font-size: 1.5rem;
 
 }
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    border-radius: 15px;
+    position: absolute;
+    top: 60%;
+    left: 100px;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+.zooming {
+    margin: 0 20px;
+    border: rgba(29, 63, 93, 0.591) solid 2px;
+    border-radius: 15px;
+}
+
+.zooming:hover {
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 90%;
+    transition: all ease-out;
+    transition-duration: 2000ms;
+    box-shadow: inset aliceblue 0 0 5px, rgb(23, 105, 177) 2px 6px 15px;
+}
+
+.container {
+    position: relative;
+}
